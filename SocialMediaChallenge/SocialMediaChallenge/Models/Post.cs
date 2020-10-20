@@ -9,7 +9,7 @@ namespace SocialMediaChallenge.Models
     public class Post
     {
         [Key]
-        public int ID { get; set; }
+        public Guid ID { get; set; }
         [Required]
         public string Title { get; set; }
         [Required]

@@ -11,7 +11,7 @@ namespace SocialMediaChallenge.Models
     public class Like
     {
         [Key]
-        public int ID { get; set; }
+        public Guid ID { get; set; }
         [Required]
         public Post LikedPost { get; set; }
         [ForeignKey(nameof(LikedPost))]
