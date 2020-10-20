@@ -41,7 +41,7 @@ namespace SocialMediaChallenge.Controllers
                 return Ok(foundCustomer);
             }
             [HttpPut]
-            public async Task<IHttpActionResult> Put([FromUri] int id, [FromBody] User model)
+            public async Task<IHttpActionResult> Put([FromUri] Guid id, [FromBody] User model)
             {
                 if (ModelState.IsValid)
                 {

@@ -42,7 +42,7 @@ namespace SocialMediaChallenge.Controllers
             return Ok(foundComment);
         }
         [HttpPut]
-        public async Task<IHttpActionResult> Put([FromUri] int id, [FromBody] Comment model)
+        public async Task<IHttpActionResult> Put([FromUri] Guid id, [FromBody] Comment model)
         {
             if (ModelState.IsValid)
             {

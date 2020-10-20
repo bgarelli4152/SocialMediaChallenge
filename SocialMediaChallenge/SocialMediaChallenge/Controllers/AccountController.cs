@@ -1,4 +1,4 @@
-﻿/*using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Security.Claims;
@@ -14,13 +14,10 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OAuth;
 using SocialMediaChallenge;
-//using ElevenNote.WebAPI.Models;
 using SocialMediaChallenge.Models;
-//using ElevenNote.WebAPI.Providers;
 using SocialMediaChallenge.Providers;
-//using ElevenNote.WebAPI.Results;
 using SocialMediaChallenge.Results;
-//using ElevenNote.Data;
+using SocialMediaChallenge.WebAPI.Models;
 
 //namespace ElevenNote.WebAPI.Controllers
 namespace SocialMediaChallenge.WebAPI.Controllers
@@ -498,4 +495,3 @@ namespace SocialMediaChallenge.WebAPI.Controllers
         #endregion
     }
 }
-*/

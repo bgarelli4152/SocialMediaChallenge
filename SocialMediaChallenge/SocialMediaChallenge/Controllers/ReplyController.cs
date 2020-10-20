@@ -42,7 +42,7 @@ namespace SocialMediaChallenge.Controllers
             return Ok(foundReply);
         }
         [HttpPut]
-        public async Task<IHttpActionResult> Put([FromUri] int id, [FromBody] Reply model)
+        public async Task<IHttpActionResult> Put([FromUri] Guid id, [FromBody] Reply model)
         {
             if (ModelState.IsValid)
             {
